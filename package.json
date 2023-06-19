@@ -1,5 +1,5 @@
 {
-  "name": "my-gridsome-site",
+  "name": "ghost-web",
   "private": true,
   "scripts": {
     "build": "gridsome build",
@@ -7,6 +7,10 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
-    "gridsome": "^0.7.0"
+    "gridsome": "^0.7.0",
+    "nvm": "^0.0.4"
+  },
+  "devDependencies": {
+    "webpack": "^5.74.0"
   }
 }
